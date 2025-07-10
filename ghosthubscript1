@@ -23,11 +23,6 @@ local Tabs = {
     Settings = Window:AddTab({ Title = "Settings", Icon = "settings" }),
     Note = Window:AddTab({ Title = "NOTE!", Icon = "shield-alert" }),
 }
-
-local Section Tabs = {
-    local Section = Tabs.Player:AddSection("Main")
-}
-
 local Options = Fluent.Options
 
 local Toggle = Tabs.Player:AddToggle("MyToggle", {
